@@ -12,8 +12,11 @@ public class BubbleSort {
                     int aux = lista[i];
                     lista[i] = lista[j];
                     lista[j] = aux;
+                    System.out.println("Passo " + i + ", Troca: " + lista[i] + " e " + lista[j]);
                 }
             }
+            imprimeLista();
+            System.out.println("\n");
         }
         return lista;
     }
