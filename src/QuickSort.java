@@ -18,7 +18,8 @@ public class QuickSort {
     System.out.println();
   }
 
-  private int partition( int low, int high) {
+  private int partition(int low, int high) {
+    // O pivot é o último elemento da partição
     int pivot = array[high];
     int i = low - 1;
 
