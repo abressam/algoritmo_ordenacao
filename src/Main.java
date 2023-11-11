@@ -16,11 +16,11 @@ public class Main {
     System.out.println("\n\n----- Bubble Sort ----- ");
     bubbleSort.ordemCrescente();
 
-    System.out.println("\n\n----- Insertion Sort ----- ");
-    insertionSort.ordenaArray();
-
-    System.out.println("\n\n----- Quick Sort ----- ");
-    quickSort.sort();
+//    System.out.println("\n\n----- Insertion Sort ----- ");
+//    insertionSort.ordenaArray();
+//
+//    System.out.println("\n\n----- Quick Sort ----- ");
+//    quickSort.sort();
 
   }
 }
